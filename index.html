@@ -258,28 +258,22 @@
   </div>
 </section>
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/EmbQA.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          Overview of the EmbQA framework. Retriever module constructs a knowledge base by retrieving passages
+<!-- Teaser Image-->
+<section class="hero teaser">
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <img src="static/images/EmbQA.jpg" alt="An overview of our method"/>
+            <h2 class="subtitle has-text-centered">
+                Overview of the EmbQA framework. The retriever module constructs a knowledge base by retrieving passages
 from a large corpus and then refines the query via an embedding layer under unsupervised contrastive learning to
-prioritise passages rich in answer-critical cues. Then Reader module integrates an exploratory embedding into the
+prioritise passages rich in answer-critical cues. The Reader module integrates an exploratory embedding into the
 query to diversify candidate generation and employs an entropy-based selection mechanism to pick the final answer
 with the lowest uncertainty, ultimately enhancing both efficiency and overall performance in ODQA.
-        </h2>
-      </div>
-  </div>
-</div>
-</div>
+            </h2>
+        </div>
+    </div>
 </section>
-<!-- End image carousel -->
+<!-- End teaser Image -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
